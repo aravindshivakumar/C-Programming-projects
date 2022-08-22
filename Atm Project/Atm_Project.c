@@ -60,7 +60,7 @@ int newpin1,newpin2,pin_num;
 int choice;
 do{
  printf("\n1.check balance \n2.deposit money\n3.withdraw money \n4.pinchange\n5.exit");
- printf("\nENTER YOUR choice\n");
+ printf("\nENTER YOUR CHOICE\n");
  scanf("%d",&choice);
  switch(choice)
  {
@@ -85,6 +85,6 @@ do{
  }
  printf("\ndo you want to continue(Y/N)");
  scanf(" %c",&decide);
-}while(decide=='Y');
+}while(decide=='Y' || decide=='y');
 return 0;
 }
